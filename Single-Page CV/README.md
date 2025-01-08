@@ -58,10 +58,6 @@ Follow the instructions below to get the project running on your local machine.
 3. **Add or Remove Sections:**
    Adjust the structure in `index.html` to include or exclude specific sections like "Projects," "Hobbies," or "References."
 
-## Demo
-
-![Screenshot](path/to/screenshot.png)
-
 ## Contributing
 
 Contributions are welcome! If you have ideas to enhance the project, feel free to open an issue or submit a pull request.
