@@ -69,10 +69,6 @@ Follow the steps below to set up and run the frontend locally.
 3. **Enhance Functionality:**
    Add or modify scripts in `script.js` to introduce new features or interactions.
 
-## Demo
-
-![Frontend Screenshot](path/to/screenshot.png)
-
 ## Contributing
 
 Contributions are welcome! If you have ideas to improve the frontend, please open an issue or submit a pull request.
