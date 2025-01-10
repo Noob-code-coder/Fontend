@@ -1,6 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayush Das - Single Page CV</title>
@@ -10,24 +13,48 @@
     <meta name = "author" content = "Ayush Das">
 
     <style>
+        body {
+            font-family: Zain, sans-serif;
+            margin: 20px;
+            color: black;
+        }
         .container {
             max-width: 10000px;
             margin: auto;
             padding: 50px;
             border: 2px solid #000000;
         }
+        .horizontal-line {
+            border-top: 3px solid black;
+            width: 80%;
+            margin-bottom: -10px;
+        }
+        .title {
+            font-size: 40px;
+            margin-top: 10px;
+            margin-bottom: -20px;
+        }
+        .sub-title {
+            font-size: 20px;
+            color: #2f9e44;
+        }
+        .content {
+            margin-top: -10px;
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
     <div class = "container">
         <header>
-            <h1> Ayush Das </h1>
-            <p> Fronted Developer </p>
-            <p> Arabinda Pally <br>
+            <div class = "horizontal-line"></div>
+            <div class = "title"> Ayush Das </div>
+            <p class = "sub-title"> Frontend Developer </p>
+            <p class = "content">Arabinda Pally <br>
                 Duttapukur, kolkata <br>
                 West Bengal, 743248 <br>
                 (+91) 8910187121 <br>
-                dasayush322@gmail.com </p>
+                <a href = "mailto:examplemail@gmail.com"> examplemail@gmail.com </p>
         </header>
     </div> 
 </body>
