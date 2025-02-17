@@ -13,55 +13,90 @@
     <meta name = "author" content = "Ayush Das">
 
     <style>
-        body {
-            font-family: Zain, sans-serif;
-            margin: 20px;
-            color: black;
-        }
-        .container {
-            max-width: 10000px;
-            margin: auto;
-            padding: 50px;
-            border: 2px solid #000000;
-        }
         .horizontal-line {
             border-top: 3px solid black;
+            border-radius: 3px;
             width: 80%;
-            margin-bottom: -10px;
-        }
-        .Name {
-            font-size: 40px;
-            margin-top: 20px;
-            margin-bottom: auto;
-        }
-        .sub-title {
-            font-size: 25px;
-            color: #2f9e44;
             margin-top: 10px;
-            margin-bottom: 10px;
+            margin-bottom: -20px;
         }
-        .content {
-            margin-top: auto;
-            margin-bottom: auto;
+
+        body {
+            font-family: Zain, sans-serif;
+            line-height: 1.5;
+            margin: 20px;
+            padding: 90px;
+            border: 3px solid #000;
+            border-radius: 10px;
+            max-width: 10000px;
+            font-size: 25px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: -42px;
+        }
+        h2 {
+            color: #2f9e44;
+        }
+        h3 {
+            color: #999;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        
+        .skills, .education, .experience {
+            margin-left: 20px;
         }
     </style>
 </head>
 <body>
-    <div class = "container">
-        <header>
-            <div class = "horizontal-line"></div>
-            <div class = "Name"> Ayush Das </div>
-            <p class = "sub-title"> Frontend Developer </p>
-            <p class = "content">Arabinda Pally <br>
-                Duttapukur, kolkata <br>
-                West Bengal, 743248 <br>
-                (+91) 8910187121 <br>
-                <a href = "mailto:examplemail@gmail.com"> examplemail@gmail.com </a></p>
-                <div class = "sub-title"> Skills </div>
-                <p class = "content"> HTML, CSS, Python, MongoDB, SQL </p>
-                <div class = "sub-title"> Education </div>
-            </header>
-    </div>
+    <div class = "horizontal-line"></div>
+    <h1>Ayush Das</h1>
+    <h2>Junior Frontend Developer</h2>
+    <p class= "content">123 Your Street<br>
+       Your City, ST 12345<br>
+       (123) 456-7890<br>
+       no_reply@example.com</p>
 
+    <section>
+        <h2>Skills</h2>
+        <p>HTML, CSS, JavaScript, Accessibility, Figma to Design, Responsive Web Design, Technical Writing, Presentation</p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p>School Name, Location - Degree<br>
+           Month 20xx to Month 20xx<br>
+           List of exciting things you did at university</p>
+    </section>
+
+    <section>
+        <h2>Experience</h2>
+        <p>Company Name, Location - Job Title<br>
+           Month 20xx to Month 20xx</p>
+        <ul class="experience">
+            <li>List of achievements</li>
+            <li>List of achievements</li>
+            <li>List of achievements</li>
+        </ul>
+        <p>Skills: List of skills used or gained at this company</p>
+
+        <p>Company Name, Location - Job Title<br>
+           Month 20xx to Month 20xx</p>
+        <ul class="experience">
+            <li>List of achievements</li>
+            <li>List of achievements</li>
+            <li>List of achievements</li>
+        </ul>
+        <p>Skills: List of skills used or gained at this company</p>
+    </section>
+
+    <section>
+        <h2>Across the Internet</h2>
+        <li><a href = "https://www.linkedin.com/in/ayush-das-195180315">LinkedIn</a></li>
+        <li><a href = "https://github.com/Noob-code-coder/">GitHub</a></li>
+    </section>
 </body>
 </html>
