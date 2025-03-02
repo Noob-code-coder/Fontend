@@ -77,6 +77,9 @@ Contributions are welcome! If you have ideas to enhance the project, feel free t
    ```
 5. Open a pull request
 
+## Project URL 
+https://roadmap.sh/projects/single-page-cv
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
